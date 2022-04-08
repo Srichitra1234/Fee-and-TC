@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+
+body {
+    margin: 0;
+    padding-top: 70px;
+    background: url(nature.jpeg);
+    background-size: cover;
+    background-position: cover;
+    font-family: sans-serif;
+    padding-left: 450px;
+    }
+    input[type="submit"]{
+      width: 200px;
+      height: 50px;
+      background-color: #fb2525;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 25px;
+      font: sans-serif;
+    }
+    input[type='submit']:hover
+    { outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: #ffc107;
+      color: #000;
+    }
+    .container
+    {
+       padding-top: 40px;
+       background-color: #000;
+       width: 350px;
+       height: 350px;
+       text-align: center;
+    }
+    input[type='text']
+    {
+      height: 30px;
+      width: 250px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+    
+    </style>
+</head>
+<body>
+  <div class="container">
+    <form action="update1.php"  method="POST">
+   
+      <input type="text" name="name" placeholder="name" required>
+      <br><br>
+      <input type="text" name="course" placeholder="branch" required>
+      <br><br>
+      <input type="text" name="yrofsty" placeholder="year of study" required>
+      <br><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(nature.jpeg);
+    background-size: cover;
+    background-position: cover;
+    font-family: sans-serif;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 60px ;
+}
+/*select:required:invalid {
+    color: #666;
+    
+  }
+option[value="none"][disabled] {
+    display: none;
+}*/
+.container{
+    display: grid;
+    height:100vh;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.5fr;
+    grid-gap: 0.4rem;
+    /*padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 250px;
+    padding-bottom: 100px;*/
+    /*background: url(nature.jpeg);*/
+    /*margin: auto;*/
+}
+#generate{
+    background: black;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 350px;
+    padding-left: 35px;
+    padding-top: 25px;
+    /*padding-top: 500px;
+    padding-bottom: 600px;
+    border-style: solid;
+    border-color: #000;
+    height: 350px;
+    padding-top: 60px;
+    top: 50% ;
+    left: 50%;
+   
+    position: absolute ;*/
+}
+#fullypaid{
+    background: #000;
+    color: #fff;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-top: 10px;
+    width: 300px;
+}
+/*#fromto{
+    background: #000;
+    color: #fff;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-top: 10px;
+}*/
+#defaulters{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 300px;
+}
+input[type="submit"]
+{
+    outline:none;
+    border:none;
+    height: 40px;
+    width: 80px;
+    background: red;
+    color:#fff;
+    font-size: 18px;
+    position: absolute;
+}
+input[type="text"]
+{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+select
+{
+    width: 210px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+/*input[type="date"]
+{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}*/

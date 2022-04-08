@@ -1,0 +1,17 @@
+body{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+table{
+    border: black;
+    border-style: solid;
+    height: 300px;
+    width: 1000px;
+
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid red;
+    border-spacing: 0px;
+  }

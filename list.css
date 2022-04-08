@@ -1,0 +1,81 @@
+body
+{
+    background: #fff;   
+}
+.grid
+{
+    margin:80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    align-items: center;
+}
+.receipt
+{
+    width: 280px;;
+    height: 280px ;
+    background: #000;
+    color: #fff ;
+    top: 30% ;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 30px;
+    border-style: outset;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 80px;
+    margin-left: 40px;
+
+}
+.search
+{
+    width: 280px;;
+    height: 280px ;
+    background: #000;
+    color: #fff ;
+    top: 30% ;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 30px;
+    border-style: outset;
+
+}
+.fullypaid
+{
+    width: 280px;;
+    height: 280px ;
+    background: #000;
+    color: #fff ;
+    top: 60% ;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 30px;
+    border-style: outset;
+}
+.date
+{
+    width: 280px;;
+    height: 280px ;
+    background: #000;
+    color: #fff ;
+    top: 60% ;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 30px;
+     border-style: outset;
+}
+
+
